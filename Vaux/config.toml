@@ -1,8 +1,8 @@
 ######################## default configuration ####################
 baseURL = "https://demo.gethugothemes.com/restaurant/examplesite/"
 languageCode = "en-us"
-title = "Restaurant Hugo"
-theme = "restaurant-hugo"
+title = "Par monts et par Vaux"
+theme = "par-monts-et-par-vaux"
 summaryLength = "10"
 paginate = 4
 
