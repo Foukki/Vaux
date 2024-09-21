@@ -1,10 +1,8 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/restaurant/examplesite/"
+baseURL = "https://demo.gethugothemes.com/Vaux/"
 languageCode = "en-us"
 title = "Par monts et par Vaux"
-theme = "par-monts-et-par-vaux"
-summaryLength = "10"
-paginate = 4
+theme = "Vaux"
 
 ############################# Plugins ##############################
 
