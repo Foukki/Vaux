@@ -19,7 +19,7 @@ jobs:
 
       - name: Build site
         run:
-          cd Site && hugo --themesDir ../.. --minify
+          ls && cd Site && hugo --themesDir ../.. --minify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
