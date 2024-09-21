@@ -1,0 +1,23 @@
+{{ if site.Data.homepage.contact.enable }}
+{{ with site.Data.homepage.contact }}
+<section id="contact-us">
+	<div class="container">
+		<div class="row">
+				<div class="block wow fadeInLeft" data-wow-delay="200ms">
+					<h3>{{ with site.Params.footer.contactInfoTitle }} {{ . | safeHTML }} {{ end }}</h3>
+					<div class="info">
+						<ul class="horizontal-list">
+							{{ range site.Params.footer.contactItem }}
+							<li>
+								<h4><i class="{{.icon}}"></i>{{ .title }}</h4>
+								<p>{{ .content | markdownify }}</p>
+							</li>
+							{{end}}
+						</ul>
+					</div>
+				</div>
+		</div><!-- .row close -->
+	</div><!-- .containe close -->
+</section><!-- #contact-us close -->
+{{end}}
+{{end}}
