@@ -978,7 +978,7 @@ ul.horizontal-list li {
 
 @media (max-width:758px) {
 	#logo {
-		max-width: 35%;
+		max-width: 8em;
 	}
 }
 
