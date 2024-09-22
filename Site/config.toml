@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = ""
+baseURL = "https://foukki.github.io/Vaux/Site/"
 languageCode = "en-us"
 title = "Par monts et par Vaux"
 theme = "Vaux"
