@@ -57,7 +57,7 @@ weight = 3
 
 #################### default parameters ################################
 [params]
-logo = "images/image2.webp"
+logo = "images/logo.webp"
 # meta data
 author = "Themefisher"
 description = "Gîte en Corrèze"
